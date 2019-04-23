@@ -37,6 +37,12 @@ main {
   font-style: italic;
 }
 
+.details {
+  color: #999;
+  text-align: left;
+  font-style: italic;
+}
+
 .details img {
   width: 100%;
   height: 200px;
@@ -59,9 +65,13 @@ main {
           filter: brightness(1.2);
 }
 
-.autor .autor-img {
-  width: 2rem;
-  height: 6rem;
+.details .updated-text {
+  font-weight: bold;
+}
+
+.autor img {
+  width: 100%;
+  height: 19rem;
 }
 
 .principal img {
