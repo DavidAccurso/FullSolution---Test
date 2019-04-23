@@ -1,16 +1,17 @@
-$( document ).ready(function() {
+const _details = '';
+const getDetails = new promise(resolve, reject) => {
+    try {
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
+        .then(response =>
+            _details = response;
+        )
+    } catch (error) {
+        console.log(error);s
+    }
+};
 
-    // async function getPost() {
-    //     try {
-    //          await fetch('https://jsonplaceholder.typicode.com/todos/1')
-    //         .then(response => response.json())
-    //         .then(json => console.log(json));
-    //     }
-    //     catch(e) {
-    //         console.log(e);
-    //     }
-    //     // Siempre trabajarlo con try catch
-    //     return response;
-    // };
-    // $('#posts').text(getPost())
+$( document ).ready(function() {
+    getDetails();
+    console.log(_details);
+    $('#fromService').val(_details);
 });
