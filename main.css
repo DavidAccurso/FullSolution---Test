@@ -4,13 +4,6 @@
 main {
     margin-bottom: 2rem;
 }
-/* img {
-    width: 300px;
-    height: 200px;
-} */
-.news-img {
-
-}
 .blog-footer {
     padding: 2.5rem 0;
     color: #999;
@@ -18,4 +11,12 @@ main {
     background-color: #f9f9f9;
     border-top: .05rem solid #e5e5e5;
   }
-  
+  .aboutbody {
+    padding: 0.3rem 0.3rem 0.3rem 0.6rem;
+  }
+  .about-text {
+      color: #999;
+      text-align: left;
+      font-family: fantasy;
+      font-style: italic;
+  }
